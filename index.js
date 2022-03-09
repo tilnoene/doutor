@@ -107,6 +107,7 @@ client.on('message', (message) => {
 client.on('ready', () => {
   console.log('Meow!');
   client.user.setActivity('sempre que sorri sou rei (rei)', { type: 'CUSTOM_STATUS' }); // STREAMING, WATCHING, CUSTOM_STATUS, PLAYING, COMPETING
+  
 });
 
 keepAlive();
